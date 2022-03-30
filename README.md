@@ -76,3 +76,28 @@ const word = "";
 const text = "red RED Red!";
 wordCounter(word, text);
 Expected Output: 0
+
+<!-- New Function -->
+
+Describe: mostCommonWords()
+
+Test: "It should return a zero if no input"
+code:
+const text = "";
+mostComonWords(text);
+Expected Output: 0
+
+Test: "It should return the number of times a word apears"
+code:
+const text = "the the the";
+mostComonWords(text);
+Expected Output: 3
+
+<!-- function mostCommonWords(text) {
+    const wordArray = text.split(" ");
+    let wordCount = 0;
+    wordArray.forEach(function(element) {
+        wordCount ++;
+    })
+    console.log(wordCount);
+} -->
